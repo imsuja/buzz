@@ -68,7 +68,7 @@
     a = document.querySelector("#profile-sections-container > div:nth-child(3) > tbme-rank")?.shadowRoot.querySelector("lwc-tds-theme-provider > lwc-tbui-card > div:nth-child(3) > div > lwc-tds-dangerous-html > span")
     if (a != null) a.innerHTML = 'Earn <b>79</b> more badges and  <b>49,900</b> more points to reach <a href="https://trailhead.salesforce.com/en/trailblazer-ranks" class="rank-name-container" target="_blank"><span class="capitalize">Expeditioner</span> rank</a>.'
 
-    a = document.querySelector("#profile-sections-container > div:nth-child(3) > tbme-rank").shadowRoot.querySelector("lwc-tds-theme-provider > lwc-tbui-card > div:nth-child(3) > div > lwc-tbui-progress-avatar").shadowRoot.querySelector("div > div.progress > svg > path");
+    a = document.querySelector("#profile-sections-container > div:nth-child(3) > tbme-rank")?.shadowRoot.querySelector("lwc-tds-theme-provider > lwc-tbui-card > div:nth-child(3) > div > lwc-tbui-progress-avatar")?.shadowRoot.querySelector("div > div.progress > svg > path");
     if (a != null) a.style.display = 'none';
 
 }, 1000);
