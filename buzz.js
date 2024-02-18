@@ -63,7 +63,7 @@ a = document.querySelector("#main > thtoday-page")?.shadowRoot.querySelector("#a
 if (a != null) a.style.width = '1%';
 
 a = document.querySelector("#global-nav")?.shadowRoot.querySelector("header > div.c360-nav__header > div.c360-nav__wrapper > nav.utility-nav.show > ul > li.utility-icons-items.login > hgf-c360login")?.shadowRoot.querySelector("#login-auth-content > div > h4.section-title.trailhead-badge-info")
-if ( a != null) a.innerHTML = 'Triple Star Ranger · 87 badges · 100100 points'
+if ( a != null) a.innerHTML = 'Double Star Ranger · 87 badges · 100100 points'
 }, 1000);
 
 })();
